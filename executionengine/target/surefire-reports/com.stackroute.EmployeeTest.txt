@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.stackroute.EmployeeTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.178 s <<< FAILURE! - in com.stackroute.EmployeeTest
+addEmployeeEmailId(com.stackroute.EmployeeTest)  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.AssertionError: expected:<success1> but was:<null>
+	at com.stackroute.EmployeeTest.addEmployeeEmailId(EmployeeTest.java:13)
+
+addEmployeeEmailId2(com.stackroute.EmployeeTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected:<success2> but was:<null>
+	at com.stackroute.EmployeeTest.addEmployeeEmailId2(EmployeeTest.java:20)
+

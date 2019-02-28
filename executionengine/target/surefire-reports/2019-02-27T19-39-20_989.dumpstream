@@ -1,0 +1,24 @@
+# Created at 2019-02-27T19:39:30.709
+java.io.FileNotFoundException: /home/user/Documents/Mashup/js_complete/executionengine/target/surefire/surefire_01840475517035079341tmp (No such file or directory)
+
+# Created at 2019-02-27T19:39:30.729
+	at java.base/java.io.FileInputStream.open0(Native Method)
+
+# Created at 2019-02-27T19:39:30.729
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:220)
+
+# Created at 2019-02-27T19:39:30.730
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+
+# Created at 2019-02-27T19:39:30.730
+	at org.apache.maven.surefire.booter.SystemPropertyManager.loadProperties(SystemPropertyManager.java:67)
+
+# Created at 2019-02-27T19:39:30.730
+	at org.apache.maven.surefire.booter.SystemPropertyManager.setSystemProperties(SystemPropertyManager.java:73)
+
+# Created at 2019-02-27T19:39:30.731
+	at org.apache.maven.surefire.booter.ForkedBooter.setupBooter(ForkedBooter.java:95)
+
+# Created at 2019-02-27T19:39:30.731
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
